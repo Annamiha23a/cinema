@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="view.UserFrame">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="743" height="583"/>
+    </constraints>
+    <properties>
+      <background color="-5708640"/>
+      <preferredSize width="1000" height="700"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="c23d5" binding="tabbedPane1" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13317852"/>
+          <foreground color="-16759516"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="dbafe" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Мои данные"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="43d87" layout-manager="GridLayoutManager" row-count="7" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-5708640"/>
+                  <foreground color="-14788283"/>
+                </properties>
+                <border type="none" title="Ваши личные данные"/>
+                <children>
+                  <component id="8bbcd" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <foreground color="-14788283"/>
+                      <text value="Фамилия:                          "/>
+                    </properties>
+                  </component>
+                  <hspacer id="15572">
+                    <constraints>
+                      <grid row="1" column="2" row-span="3" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <component id="ab575" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <foreground color="-14788283"/>
+                      <text value="Имя:"/>
+                    </properties>
+                  </component>
+                  <component id="8369a" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <foreground color="-14788283"/>
+                      <text value="Отчество:"/>
+                    </properties>
+                  </component>
+                  <component id="cbdf2" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <foreground color="-14788283"/>
+                      <text value="Телефон:"/>
+                    </properties>
+                  </component>
+                  <component id="75f68" class="javax.swing.JTextField" binding="mySurnameField">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-4330314"/>
+                      <editable value="false"/>
+                      <foreground color="-14788283"/>
+                    </properties>
+                  </component>
+                  <component id="27c75" class="javax.swing.JTextField" binding="myNameField">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-4330314"/>
+                      <editable value="false"/>
+                      <foreground color="-14788283"/>
+                    </properties>
+                  </component>
+                  <component id="8cfbd" class="javax.swing.JTextField" binding="myLastnameField">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-4330314"/>
+                      <editable value="false"/>
+                      <foreground color="-14788283"/>
+                    </properties>
+                  </component>
+                  <component id="eeba3" class="javax.swing.JTextField" binding="myPhoneField">
+                    <constraints>
+                      <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-4330314"/>
+                      <editable value="false"/>
+                      <foreground color="-14788283"/>
+                    </properties>
+                  </component>
+                  <component id="e8320" class="javax.swing.JButton" binding="editMyPersonalDataButton">
+                    <constraints>
+                      <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-12282806"/>
+                      <foreground color="-14788283"/>
+                      <text value="Редактировать личные данные"/>
+                    </properties>
+                  </component>
+                  <vspacer id="86aee">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <vspacer id="8b808">
+                    <constraints>
+                      <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                </children>
+              </grid>
+              <grid id="2c7ec" layout-manager="GridLayoutManager" row-count="7" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-5708640"/>
+                  <foreground color="-14788283"/>
+                </properties>
+                <border type="none" title="Ваши данные пользователя"/>
+                <children>
+                  <component id="4bd4" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <foreground color="-14788283"/>
+                      <text value="Рабочий телефон:"/>
+                    </properties>
+                  </component>
+                  <hspacer id="da19c">
+                    <constraints>
+                      <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <component id="f08a7" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <foreground color="-14788283"/>
+                      <text value="Логин:"/>
+                    </properties>
+                  </component>
+                  <component id="b775f" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <foreground color="-14788283"/>
+                      <text value="Пароль:"/>
+                    </properties>
+                  </component>
+                  <component id="f442b" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <foreground color="-14788283"/>
+                      <text value="Подтверждение пароля:"/>
+                    </properties>
+                  </component>
+                  <component id="ac346" class="javax.swing.JTextField" binding="myWorkPhoneField">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-4330314"/>
+                      <editable value="false"/>
+                      <foreground color="-14788283"/>
+                    </properties>
+                  </component>
+                  <component id="86b6" class="javax.swing.JTextField" binding="myLoginField">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-4330314"/>
+                      <editable value="false"/>
+                      <foreground color="-14788283"/>
+                    </properties>
+                  </component>
+                  <component id="e7175" class="javax.swing.JPasswordField" binding="myPasswordField1">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-4330314"/>
+                      <editable value="false"/>
+                      <foreground color="-14788283"/>
+                    </properties>
+                  </component>
+                  <component id="fae3c" class="javax.swing.JPasswordField" binding="myPasswordField2">
+                    <constraints>
+                      <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-4330314"/>
+                      <editable value="false"/>
+                      <foreground color="-14788283"/>
+                    </properties>
+                  </component>
+                  <component id="7c3b2" class="javax.swing.JButton" binding="editMyAuthorizationDataButton">
+                    <constraints>
+                      <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-12282806"/>
+                      <foreground color="-14788283"/>
+                      <text value="Редактировать данные пользователя"/>
+                    </properties>
+                  </component>
+                  <vspacer id="58470">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <vspacer id="d0a47">
+                    <constraints>
+                      <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="579bb" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Работа с клиентами"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <tabbedpane id="a0be1" binding="tabbedPane2" default-binding="true">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="200"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13317852"/>
+                  <foreground color="-14788283"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="53053" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Добавить клиента"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <grid id="506b4" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-5708640"/>
+                          <foreground color="-14788283"/>
+                        </properties>
+                        <border type="none" title="Обязательные поля"/>
+                        <children>
+                          <component id="c7aea" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <foreground color="-14788283"/>
+                              <text value="Номер телефона:"/>
+                            </properties>
+                          </component>
+                          <hspacer id="5a500">
+                            <constraints>
+                              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                          </hspacer>
+                          <component id="f28c7" class="javax.swing.JTextField" binding="newClientPhoneField">
+                            <constraints>
+                              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-4330314"/>
+                              <foreground color="-14788283"/>
+                            </properties>
+                          </component>
+                          <component id="66440" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <foreground color="-14788283"/>
+                              <text value="Возраст"/>
+                            </properties>
+                          </component>
+                          <component id="2c4bc" class="javax.swing.JTextField" binding="newClientAgeField">
+                            <constraints>
+                              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-4330314"/>
+                              <foreground color="-14788283"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="80c3a" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-5708640"/>
+                          <enabled value="false"/>
+                          <foreground color="-14788283"/>
+                        </properties>
+                        <border type="none" title="Необязательные поля"/>
+                        <children>
+                          <component id="c43b9" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <foreground color="-14788283"/>
+                              <text value="Фамилия:              "/>
+                            </properties>
+                          </component>
+                          <hspacer id="86cef">
+                            <constraints>
+                              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                          </hspacer>
+                          <component id="2ab12" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <foreground color="-14788283"/>
+                              <text value="Имя:"/>
+                            </properties>
+                          </component>
+                          <component id="88364" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <foreground color="-14788283"/>
+                              <text value="Отчество:"/>
+                            </properties>
+                          </component>
+                          <component id="757be" class="javax.swing.JTextField" binding="newClientSurnameField">
+                            <constraints>
+                              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-4330314"/>
+                              <foreground color="-14788283"/>
+                            </properties>
+                          </component>
+                          <component id="3813e" class="javax.swing.JTextField" binding="newClientNameField">
+                            <constraints>
+                              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-4330314"/>
+                              <foreground color="-14788283"/>
+                            </properties>
+                          </component>
+                          <component id="14025" class="javax.swing.JTextField" binding="newClientLastnameField">
+                            <constraints>
+                              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-4330314"/>
+                              <foreground color="-14788283"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <component id="fddc9" class="javax.swing.JButton" binding="addClientButton">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-12282806"/>
+                          <foreground color="-14788283"/>
+                          <text value="Добавить"/>
+                        </properties>
+                      </component>
+                      <component id="37316" class="javax.swing.JButton" binding="clearNewClientFormButton">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-12282806"/>
+                          <foreground color="-14788283"/>
+                          <text value="Очистить"/>
+                        </properties>
+                      </component>
+                      <hspacer id="57aa7">
+                        <constraints>
+                          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </hspacer>
+                    </children>
+                  </grid>
+                  <grid id="f16b3" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Редактировать данные клиента"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <grid id="3a50d" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-5708640"/>
+                          <foreground color="-14788283"/>
+                        </properties>
+                        <border type="none" title="Обязательные поля"/>
+                        <children>
+                          <component id="289df" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <foreground color="-14788283"/>
+                              <text value="Номер телефона:"/>
+                            </properties>
+                          </component>
+                          <hspacer id="58a3c">
+                            <constraints>
+                              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                          </hspacer>
+                          <component id="7027e" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <foreground color="-14788283"/>
+                              <text value="Возраст"/>
+                            </properties>
+                          </component>
+                          <component id="8d312" class="javax.swing.JTextField" binding="editClientPhoneField">
+                            <constraints>
+                              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-4330314"/>
+                              <foreground color="-14788283"/>
+                            </properties>
+                          </component>
+                          <component id="c3510" class="javax.swing.JTextField" binding="editClientAgeField">
+                            <constraints>
+                              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-4330314"/>
+                              <foreground color="-14788283"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="1beeb" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-5708640"/>
+                          <foreground color="-14788283"/>
+                        </properties>
+                        <border type="none" title="Необязательные поля"/>
+                        <children>
+                          <component id="b2788" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <foreground color="-14788283"/>
+                              <text value="Фамилия:              "/>
+                            </properties>
+                          </component>
+                          <hspacer id="fcca6">
+                            <constraints>
+                              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                          </hspacer>
+                          <component id="8459c" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <foreground color="-14788283"/>
+                              <text value="Имя:"/>
+                            </properties>
+                          </component>
+                          <component id="e54a7" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <foreground color="-14788283"/>
+                              <text value="Отчество:"/>
+                            </properties>
+                          </component>
+                          <component id="c4e89" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <text value=""/>
+                            </properties>
+                          </component>
+                          <component id="9845a" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <text value=""/>
+                            </properties>
+                          </component>
+                          <component id="6525c" class="javax.swing.JTextField" binding="editClientSurnameField">
+                            <constraints>
+                              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-4330314"/>
+                              <foreground color="-14788283"/>
+                            </properties>
+                          </component>
+                          <component id="308fb" class="javax.swing.JTextField" binding="editClientNameField">
+                            <constraints>
+                              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-4330314"/>
+                              <foreground color="-14788283"/>
+                            </properties>
+                          </component>
+                          <component id="d5645" class="javax.swing.JTextField" binding="editClientLastnameField">
+                            <constraints>
+                              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-4330314"/>
+                              <foreground color="-14788283"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <component id="bb2c7" class="javax.swing.JButton" binding="editClientButton">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-12282806"/>
+                          <foreground color="-14788283"/>
+                          <text value="Редактировать"/>
+                        </properties>
+                      </component>
+                      <hspacer id="9e8c3">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </hspacer>
+                    </children>
+                  </grid>
+                  <grid id="3b0f1" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Удалить клиента"/>
+                    </constraints>
+                    <properties>
+                      <background color="-5708640"/>
+                      <foreground color="-14788283"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="4b6bb" class="javax.swing.JButton" binding="deleteClientButton">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-12282806"/>
+                          <foreground color="-14788283"/>
+                          <text value="Удалить"/>
+                        </properties>
+                      </component>
+                      <component id="da1cd" class="javax.swing.JCheckBox" binding="deleteClientCheckBox">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-5708640"/>
+                          <foreground color="-14788283"/>
+                          <text value="Я подтверждаю удаление учетной записи клиента и всех билетов этого клиента"/>
+                        </properties>
+                      </component>
+                      <vspacer id="e5fdb">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </vspacer>
+                      <hspacer id="d6960">
+                        <constraints>
+                          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </hspacer>
+                      <hspacer id="3b9d8">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </hspacer>
+                      <vspacer id="ba0a">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </vspacer>
+                    </children>
+                  </grid>
+                  <grid id="715f2" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Статистика"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="29670" class="javax.swing.JButton" binding="statistics">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-12282806"/>
+                          <foreground color="-14788283"/>
+                          <text value="Статистика"/>
+                        </properties>
+                      </component>
+                      <vspacer id="84c5a">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </vspacer>
+                    </children>
+                  </grid>
+                </children>
+              </tabbedpane>
+              <scrollpane id="627b7" binding="workClientsTab">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-5708640"/>
+                  <foreground color="-14788283"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="38529" class="javax.swing.JTable" binding="workClientsTable">
+                    <constraints/>
+                    <properties>
+                      <background color="-5708640"/>
+                      <foreground color="-14788283"/>
+                      <selectionBackground color="-6632142"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+          <grid id="29109" layout-manager="GridLayoutManager" row-count="4" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Заказать билет"/>
+            </constraints>
+            <properties/>
+            <border type="none" title="Клиент"/>
+            <children>
+              <scrollpane id="ef4b3">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-5708640"/>
+                  <foreground color="-14788283"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="39eb" class="javax.swing.JTable" binding="recordClientsTable">
+                    <constraints/>
+                    <properties>
+                      <background color="-5708640"/>
+                      <foreground color="-14788283"/>
+                      <selectionBackground color="-6632142"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <scrollpane id="8f900">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="5" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-5708640"/>
+                  <foreground color="-14788283"/>
+                </properties>
+                <border type="none" title="Фильм"/>
+                <children>
+                  <component id="1bab5" class="javax.swing.JTable" binding="recordMoviesTable">
+                    <constraints/>
+                    <properties>
+                      <background color="-5708640"/>
+                      <foreground color="-14788283"/>
+                      <selectionBackground color="-6632142"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <scrollpane id="ba5c0">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="5" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-5708640"/>
+                  <foreground color="-14788283"/>
+                </properties>
+                <border type="none" title="Билет"/>
+                <children>
+                  <component id="e772c" class="javax.swing.JTable" binding="addPlaceTable">
+                    <constraints/>
+                    <properties>
+                      <background color="-5708640"/>
+                      <foreground color="-14788283"/>
+                      <selectionBackground color="-6632142"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <component id="fc038" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-5708640"/>
+                  <foreground color="-14788283"/>
+                  <text value="Комментарий:"/>
+                </properties>
+              </component>
+              <component id="af215" class="javax.swing.JTextField" binding="commentTextField">
+                <constraints>
+                  <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4330314"/>
+                  <foreground color="-14788283"/>
+                </properties>
+              </component>
+              <component id="8937b" class="javax.swing.JButton" binding="addRecordButton">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12282806"/>
+                  <foreground color="-14788283"/>
+                  <text value="Записать на сеанс"/>
+                </properties>
+              </component>
+              <component id="7c8d3" class="javax.swing.JComboBox" binding="placeCom">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12282806"/>
+                  <foreground color="-14788283"/>
+                  <model>
+                    <item value="Выберите место"/>
+                    <item value="1"/>
+                    <item value="2"/>
+                    <item value="3"/>
+                    <item value="4"/>
+                    <item value="5"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="fb393" class="javax.swing.JButton" binding="viewPlaces">
+                <constraints>
+                  <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12282806"/>
+                  <foreground color="-14788283"/>
+                  <text value="Посмотреть"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="ea631" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Работа с записями на сеанс"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <scrollpane id="b8fdb">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="90e8e" class="javax.swing.JTable" binding="recordsTable">
+                    <constraints/>
+                    <properties>
+                      <background color="-5708640"/>
+                      <foreground color="-14788283"/>
+                      <selectionBackground color="-6632142"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <component id="2009d" class="javax.swing.JButton" binding="printCheckButton">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12282806"/>
+                  <foreground color="-14788283"/>
+                  <text value="Распечатать талон"/>
+                </properties>
+              </component>
+              <hspacer id="1f2ee">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="a115a" class="javax.swing.JButton" binding="statsButton">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12282806"/>
+                  <foreground color="-14788283"/>
+                  <text value="Статистика"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+      <component id="874fb" class="javax.swing.JButton" binding="closeFrameButton">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12282806"/>
+          <foreground color="-14788283"/>
+          <text value="В главное меню"/>
+        </properties>
+      </component>
+      <hspacer id="80606">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>
